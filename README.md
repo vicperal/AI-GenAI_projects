@@ -3,7 +3,7 @@
 
 Python project, where I used modules such as Plotly, scikit-learn, Flask, JSON, Pandas, Numpy, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask
 
-multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph createad with Falsk that shows real and predicted values. It also compares the models performances
+multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph createad with Flask that shows real and predicted values. It also compares the models performances
 
 # 2. LLM use cases projects
 
@@ -14,8 +14,10 @@ multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses 
 2.2. app RAG_transformer_huggingface.py:
 
 <b> RAG application </b> . The code uses two different models to implement the RAG system:
+
 For the calculation of embeddings: The model used is 'paraphrase-MiniLM-L6-v2', which is a variant of the all-MiniLM-L6-v2 model. This model maps sentences and paragraphs to a dense 384-dimensional vector space1. 
 It is used to encode both the knowledge base and the user's query into vectors, allowing similarity search to retrieve the relevant context.
+
 For the generation of the response: The model used is 'google/flan-t5-base', which is a larger version of the T5 (
 Text-to-Text Transfer Transformer) model developed by Google. This model is used to generate the final response based on the retrieved context and the user's question.
 
@@ -29,6 +31,6 @@ Text-to-Text Transfer Transformer) model developed by Google. This model is used
 
 # 3. ML use case: price prediction simulation of three scenarios of demand/competition
 
-ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the Flask 3d graph created with the price prediction graph real and predicted values
+ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the 3d graph created with Flask that shows the predicted price evolution
 
 multi-ML_comparison_Flask_frontend.py is a multi-ML choice Flask application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph with real and predicted values. It also compares the predicted model performance
