@@ -3,7 +3,7 @@
 
 Python project, where I used modules such as Plotly, scikit-learn, Flask, JSON, Pandas, Numpy, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask
 
-multi-ML_comparison_Flask_frontend.py is a multi-ML choice Flask application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph with real and predicted values. It also compares the predicted model performance
+multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph createad with Falsk that shows real and predicted values. It also compares the models performances
 
 # 2. LLM use cases projects
 
@@ -29,5 +29,6 @@ Text-to-Text Transfer Transformer) model developed by Google. This model is used
 
 # 3. ML use case: price prediction given 3 scenarios of demand/competition
 
-ML price prediction_demand_competition scenarios.py:
-uses ML model to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the 3d graph with the price prediction graph real and predicted values
+ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the Flask 3d graph created with the price prediction graph real and predicted values
+
+multi-ML_comparison_Flask_frontend.py is a multi-ML choice Flask application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph with real and predicted values. It also compares the predicted model performance
