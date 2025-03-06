@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de Esperanza de Vida</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1, h2 { color: #333; }
+        form { margin-bottom: 20px; }
+        label { display: inline-block; width: 200px; }
+        input[type="number"] { width: 100px; }
+        #prediction { font-size: 1.2em; font-weight: bold; margin-top: 20px; }
+        table { border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Predicción de Esperanza de Vida basada en Indicadores Socioeconómicos</h1>
+    <form method="POST">
+        <div>
+            <label for="pib">PIB per cápita (USD):</label>
+            <input type="number" step="0.01" name="pib" id="pib" value="{{ pib }}">
+        </div>
+        <div>
+            <label for="salud">Gasto en salud (% del PIB):</label>
+            <input type="number" step="0.01" name="salud" id="salud" value="{{ salud }}">
+        </div>
+        <div>
+            <label for="educacion">Gasto en educación (% del PIB):</label>
+            <input type="number" step="0.01" name="educacion" id="educacion" value="{{ educacion }}">
+        </div>
+        <input type="submit" value="Predecir">
+    </form>
+    <div id="prediction">
+        Esperanza de vida predicha (Random Forest): {{ rf_prediction|round(2) }} años<br>
+        Esperanza de vida predicha (Gradient Boosting): {{ gb_prediction|round(2) }} años<br>
+        Esperanza de vida predicha (Regresión Lineal): {{ lr_prediction|round(2) }} años
+    </div>
+    <h2>Comparación de Modelos</h2>
+    <table>
+        <tr>
+            <th>Modelo</th>
+            <th>MSE</th>
+            <th>R²</th>
+        </tr>
+        <tr>
+            <td>Random Forest</td>
+            <td>{{ rf_mse|round(4) }}</td>
+            <td>{{ rf_r2|round(4) }}</td>
+        </tr>
+        <tr>
+            <td>Gradient Boosting</td>
+            <td>{{ gb_mse|round(4) }}</td>
+            <td>{{ gb_r2|round(4) }}</td>
+        </tr>
+        <tr>
+            <td>Regresión Lineal</td>
+            <td>{{ lr_mse|round(4) }}</td>
+            <td>{{ lr_r2|round(4) }}</td>
+        </tr>
+    </table>
+    <div id="chart" style="width:100%;height:600px;"></div>
+    <h2>Gráfico 3D: PIB per cápita, Gasto en salud, Gasto en educación y Esperanza de vida predicha</h2>
+    <script>
+        try {
+           var graphJSON = {{ graphJSON | safe }};
+           console.log('graphJSON:', graphJSON);
+
+           if (graphJSON && graphJSON.data && graphJSON.layout) {
+               Plotly.newPlot('chart', graphJSON.data, graphJSON.layout);
+           } else {
+               console.error('graphJSON no tiene la estructura esperada:', graphJSON);
+           }
+       } catch (error) {
+           console.error('Error al procesar graphJSON:', error);
+       }
+    </script>
+</body>
+</html>
