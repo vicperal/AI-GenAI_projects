@@ -27,7 +27,7 @@ Text-to-Text Transfer Transformer) model developed by Google. This model is used
 
  <b> Text summarization </b>. This code performs text summarization of a given text using the Hugging Face Transformers library. 
 
-# 3. ML use case: price prediction given 3 scenarios of demand/competition
+# 3. ML use case: price prediction simulation of three scenarios of demand/competition
 
 ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the Flask 3d graph created with the price prediction graph real and predicted values
 
