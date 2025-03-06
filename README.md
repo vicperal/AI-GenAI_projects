@@ -23,6 +23,7 @@ This code performs the sentiment analyses of a given text using the Hugging Face
 2.4. app text summary_transformers_huggingface.py
 This code performs text summarization of a given text using the Hugging Face Transformers library. 
 
+# 3. ML use case: price prediction given 3 scenarios of demand/competition
 
-
-   
+ML price prediction_demand_competition scenarios.py uses ML model to predict the price given 3 scenarios of competition (severe, mid,low)
+index.html is generated to plot the 3d graph with the price prediction graph real and predicted values
