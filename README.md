@@ -38,4 +38,4 @@ multi-ML_comparison_Flask_frontend.py is a multi-ML choice Flask application, it
 # 4. ML for drug efficacy prediction from random clinical trial data
 
 ML_drug_efficacy prediction_clinical_study_SQL_randomDB.py: # ML model for clinical study - prediction of the druf efficacy based on the dose and age. Usage of a linear regression model.
-# WARNING: the model is trained with a randon dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation
+<b> WARNING: the model is trained with a randon dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation </b>
