@@ -34,3 +34,8 @@ Text-to-Text Transfer Transformer) model developed by Google. This model is used
 ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the 3d graph created with Flask that shows the predicted price evolution
 
 multi-ML_comparison_Flask_frontend.py is a multi-ML choice Flask application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph with real and predicted values. It also compares the predicted model performance
+
+# 4. ML for drug efficacy prediction from random clinical trial data
+
+ML_drug_efficacy prediction_clinical_study_SQL_randomDB.py: # ML model for clinical study - prediction of the druf efficacy based on the dose and age. Usage of a linear regression model.
+# WARNING: the model is trained with a randon dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation
