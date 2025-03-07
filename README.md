@@ -1,7 +1,7 @@
 # AI-GenAI_projects
 
 # Just a few words... 
-I decided to share my GitHub repository where you will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental Advanced Analytics & Data Science concepts, with special focus on ML and LLM.  
+In my GitHub repository you will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental Advanced Analytics & Data Science concepts, with special focus on ML and LLM.  
 In my way to deep in the Data Science & AI field, I really believe it is important to play, test, build, make mistakes, learn and have fun! #Never_Stop_Learning 🚀😊
 
 # 1. multi-ML_comparison_Flask_frontend
