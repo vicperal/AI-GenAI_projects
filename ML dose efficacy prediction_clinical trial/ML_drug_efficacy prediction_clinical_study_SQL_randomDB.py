@@ -36,7 +36,7 @@ ensayo_clinico = ensayo_clinico.dropna()
 ensayo_clinico['dosis'] = ensayo_clinico['dosis'].astype(float)
 
 print (ensayo_clinico)
-#########################################################
+######################################################### 
 #########################################################
 
 # visualizacion de datos
@@ -54,6 +54,7 @@ plt.title('Relación entre Dosis y Eficacia')
 plt.show()
 
 ######################################################################
+#  He insertado este código para probar elementos de SQL y DataFrames 
 ######################################################################
 
 # Crear un DataFrame de inventario
@@ -133,7 +134,7 @@ ax.legend()
 plt.show()
 
 ###################################################################################################
-# ejemplo: tabla de valores recomendados de dosis, dado la edad y la eficacia deseada
+# ejemplo: crea una tabla de valores recomendados de dosis, dado la edad y la eficacia deseada
 ####################################################################################################
 
 import numpy as np
