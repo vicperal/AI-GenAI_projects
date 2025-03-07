@@ -1,8 +1,8 @@
 ####################################################################################################
 # Victor Peral - 2025 
 #
-# ML model for clinical study - prediction of the druf efficacy based on the dose and age
-# usage of a linear regression model
+# ML model for clinical study - prediction of the drug efficacy based on the dose and age of the patient.
+# Usage of a linear regression model.
 #  
 # WARNING: the model is trained with a randon dataset of clinical study created just for the purpose
 # of validating the end-to-end process of ML model creation
