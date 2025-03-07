@@ -3,7 +3,7 @@
 
 Python project, where I used modules such as Plotly, scikit-learn, Flask, JSON, Pandas, Numpy, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask
 
-multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses of http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph createad with Flask that shows real and predicted values. It also compares the models performances
+multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses  http://api.worldbank.org public data for model training. Server and Frontend code: index.html is generated to plot the 3d graph createad with Flask that shows real and predicted values, and compares the models performance statistics.
 
 # 2. LLM use cases projects
 
@@ -37,6 +37,6 @@ multi-ML_comparison_Flask_frontend.py is a multi-ML choice Flask application, it
 
 # 4. ML for drug efficacy prediction from random clinical trial data
 
-ML_drug_efficacy prediction_clinical_study_SQL_randomDB.py: ML model for clinical study - prediction of the druf efficacy based on the dose and age. Usage of a linear regression model.
+ML_drug_efficacy prediction_clinical_study_SQL_randomDB.py: ML model for clinical study - prediction of the drug efficacy based on the dose and age. Usage of a linear regression model.
 
 <b> WARNING: the model is trained with a randon dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation </b>
