@@ -3,7 +3,7 @@
 
 Python project, where I used modules such as Plotly, scikit-learn, Flask, JSON, Pandas, Numpy, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask
 
-multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses  http://api.worldbank.org public data for model training. Server and Frontend code: index.html shows real and predicted values, and compares the models performance statistics. The application plots 3d graphs that are shown in a web app created with Flask .
+multi-ML_comparison_Flask_frontend.py is a multi-ML choice application, it uses  http://api.worldbank.org public data for model training. Server and Frontend code: index.html shows real and predicted values, and compares the models performance statistics. The application plots 3d graphs created with Plotly that are shown in a web app created with Flask .
 
 # 2. LLM use cases projects
 
@@ -31,7 +31,7 @@ Text-to-Text Transfer Transformer) model developed by Google. This model is used
 
 # 3. ML use case: price prediction simulation of three scenarios of demand/competition
 
-ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the 3d graph created with Flask that shows the predicted price evolution, the 
+ML price prediction_demand_competition scenarios.py: ML application to predict the price given 3 scenarios of competition (severe, mid,low). index.html is generated to plot the 3d graphs that shows the predicted price evolution.
 It uses Linear Regression model, the graphs are created with Plotly and the server-web FrontEnd with Flask.
 
 # 4. ML for drug efficacy prediction from random clinical trial data
