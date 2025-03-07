@@ -1,4 +1,9 @@
 # AI-GenAI_projects
+
+# Just a few words... 
+I decided to share my GitHub repository where will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental concepts about Advanced Analytics and Data Science, with special focus on ML and LLM.  
+In my way to deep in the Data Science & AI field, I really believe it is important to play, test, build, make mistakes, learn and have fun! #Never_Stop_Learning 🚀😊
+
 # 1. multi-ML_comparison_Flask_frontend
 
 Python project, where I used modules such as Plotly, scikit-learn, Flask, JSON, Pandas, Numpy, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask
