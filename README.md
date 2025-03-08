@@ -1,14 +1,14 @@
 # AI-GenAI_projects
 
 # Just a few words... 
-In my GitHub repository you will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental Advanced Analytics & Data Science concepts, with special focus on ML and LLM.  
+Welcome to my GitHub repository! Here you will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental Advanced Analytics & Data Science concepts, with special focus on ML and LLM.  
 In my way to explore the Data Science & AI field, I really believe it is important to play, test, build, make mistakes, learn and have fun! #Never_Stop_Learning 🚀😊
 
 # 1. multi-ML_comparison_Flask_frontend
 
-Python project, where I used modules such as Plotly, scikit-learn, Flask, JSON, Pandas, Numpy, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask
+<u> <b> multi-ML_comparison_Flask_frontend.py </u> </b> is a multi-ML choice application, it uses  http://api.worldbank.org public data for model training. Server and Frontend code: index.html shows real and predicted values, and compares the models performance statistics. The application plots 3d graphs created with Plotly that are shown in a web app created with Flask .
 
-<b><u> multi-ML_comparison_Flask_frontend.py</b></u> is a multi-ML choice application, it uses  http://api.worldbank.org public data for model training. Server and Frontend code: index.html shows real and predicted values, and compares the models performance statistics. The application plots 3d graphs created with Plotly that are shown in a web app created with Flask .
+In this project I'm using modules such as Pandas, Numpy, Plotly, scikit-learn, Flask, JSON, etc. to analyze the relationship between data from databases and calculate predictions using models such as linear regression, assembly methods, etc. It display the graphs in a Web app created in Flask.
 
 # 2. LLM use cases projects
 
