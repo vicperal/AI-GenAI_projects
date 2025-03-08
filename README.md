@@ -20,7 +20,7 @@ In this project I'm using modules such as Pandas, Numpy, Plotly, scikit-learn, F
 
 <b> RAG application </b> . The code uses two different models to implement the RAG system:
 
-For the calculation of embeddings: The model used is 'paraphrase-MiniLM-L6-v2', which is a variant of the all-MiniLM-L6-v2 model. This model maps sentences and paragraphs to a dense 384-dimensional vector space1. 
+For the calculation of embeddings: The model used is 'paraphrase-MiniLM-L6-v2', which is a variant of the all-MiniLM-L6-v2 model. This model maps sentences and paragraphs to a vector space. 
 It is used to encode both the knowledge base and the user's query into vectors, allowing similarity search to retrieve the relevant context.
 
 For the generation of the response: The model used is 'google/flan-t5-base', which is a larger version of the T5 (
