@@ -2,7 +2,8 @@
 
 # Just a few words... 
 Welcome to my GitHub repository! Here you will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental Advanced Analytics & Data Science concepts, with special focus on ML and LLM.  
-In my way to explore the Data Science & AI field, I really believe it is important to play, test, build, make mistakes, learn and have fun! #Never_Stop_Learning 🚀😊
+
+On my way to explore the Data Science & AI field, I really believe it is important to play, test, build, make mistakes, learn and have fun! #Never_Stop_Learning 🚀😊
 
 # 1. multi-ML comparison with a Web server-frontend in Flask
 
