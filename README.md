@@ -43,4 +43,4 @@ It uses Linear Regression model, the graphs are created with Plotly and the serv
 
 <b>ML_drug_efficacy prediction_clinical_study_SQL_randomDB.py:</b> ML model for clinical study - prediction of the drug efficacy based on the dose and age. Usage of a linear regression model.
 
-<b> WARNING: the model is trained with a random dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation </b>
+<b> DISCLAIMER: the model is trained with a random dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation </b>
