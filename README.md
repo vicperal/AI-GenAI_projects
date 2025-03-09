@@ -1,4 +1,4 @@
-# My AI/ML and GenAI projects
+# My AI/ML and GenAI projects in Python
 
 # Just a few words... 
 Welcome to my GitHub repository! Here you will find several projects on Python I have been working on for some time, that helped me connect some key principles and fundamental Advanced Analytics & Data Science concepts, with special focus on ML and LLM.  
