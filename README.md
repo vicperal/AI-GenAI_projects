@@ -31,7 +31,7 @@ Text-to-Text Transfer Transformer) model developed by Google. This model is used
 
  <b> Sentiment analysis </b>. This code performs the sentiment analysis of a given text using the Hugging Face Transformers library. 
 
-2.4. </b>app text summary_transformers_huggingface.py:</b>
+2.4. <b>app text summary_transformers_huggingface.py:</b>
 
  <b> Text summarization </b>. This code performs text summarization of a given text using the Hugging Face Transformers library. 
 
