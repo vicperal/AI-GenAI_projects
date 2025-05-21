@@ -45,3 +45,6 @@ It uses Linear Regression model, the graphs are created with Plotly and the serv
 <b>ML_drug_efficacy prediction_clinical_study_SQL_randomDB.py:</b> ML model for clinical study - prediction of the drug efficacy based on the dose and age. Usage of a linear regression model.
 
 <b> DISCLAIMER: the model is trained with a random dataset of clinical study created just for the purpose of validating the end-to-end process of ML model creation </b>
+
+# 5. Recommendation System 
+<b>Recommendation_System.ipynb:</b> application that generates a list of the 10 more similar movies to a given movie. It calculates the item similarity matrix and the user similarity matrix using the cosine similarity. It uses two databases: movies.csv contains a table with 4.800 movies and ratings.csv contains a list with 100.835 user ratings. 
